@@ -11,6 +11,7 @@ dotenv.config();
 
 const mongoUrl = process.env.MONGO_URL;
 
+// Mongoose
 mongoose
   .connect(mongoUrl)
   .then(() => console.log("DB ok"))
